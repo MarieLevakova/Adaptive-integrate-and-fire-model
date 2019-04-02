@@ -2,8 +2,8 @@
 Supporting datasets and code for the manuscript "Adaptive integrate-and-fire model reproduces the dynamics of olfactory receptor neuron responses in moth"
 
 ========================
+ 
  Data files description
-========================
 
 The minimum duration of a pheromone puff/blank was chosen either as 50 ms or 100 ms
 (folders "50ms" and "100ms")
