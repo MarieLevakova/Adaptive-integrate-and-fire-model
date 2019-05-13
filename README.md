@@ -1,5 +1,5 @@
 # Adaptive integrate-and-fire model
-Supporting datasets for the manuscript "Adaptive integrate-and-fire model reproduces the dynamics of olfactory receptor neuron responses in moth"
+Supporting datasets and code for simulating the model in the manuscript "Adaptive integrate-and-fire model reproduces the dynamics of olfactory receptor neuron responses in moth"
 
 ========================
  
@@ -20,3 +20,11 @@ IDENTIFIER_valve_states.txt
 
 IDENTIFIER_spikes_times.txt
  - one column with times of spikes
+
+=========================
+
+R_code.R 
+ - An R file to simulate the spike train and firing rate of the model in response to a step stimulus
+ 
+Cpp_functions.R
+ - The underlying C++ function for the actual simulation of the model, which is used in R_code.R
